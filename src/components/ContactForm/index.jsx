@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 
-import { addContact } from 'store/thunks/phonebookThunk'
+import { addContact } from 'store/operations/phonebookOperations'
 
 import { contactSelector } from '../../store/selectors';
 

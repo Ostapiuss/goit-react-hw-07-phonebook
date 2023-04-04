@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { fetchContactsList, addContact, deleteContact } from '../thunks/phonebookThunk';
+import { fetchContactsList, addContact, deleteContact } from '../operations/phonebookOperations';
 
 const INITIAL_CONTACT_STATE = {
   contacts: {

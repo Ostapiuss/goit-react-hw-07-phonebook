@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 
 import { useSelector, useDispatch } from "react-redux";
 
-import { fetchContactsList, deleteContact } from "../../store/thunks/phonebookThunk";
+import { fetchContactsList, deleteContact } from "../../store/operations/phonebookOperations";
 
 import { contactSelector } from '../../store/selectors';
 
